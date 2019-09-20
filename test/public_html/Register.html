@@ -1,0 +1,341 @@
+<!DOCTYPE html> 
+
+ 
+
+ 
+
+<html> 
+
+    <head> 
+
+        <title>Register</title> 
+
+        <meta charset="UTF-8"> 
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+       
+
+        <style> 
+
+            *{ 
+
+                margin:0; 
+
+                padding:0; 
+
+                box-sizing:border-box; 
+
+                 
+
+             } 
+
+              
+
+             html 
+
+             { 
+
+                 height:100%; 
+
+                  
+
+             } 
+
+             body 
+
+             { 
+
+                font-family:Arial,Helvetica,sans-serif; 
+
+                font-size:1rem; 
+
+                line-height:1.6; 
+
+                height:50%; 
+
+              
+
+             } 
+
+              
+
+             .RegisterContent 
+
+             { 
+
+                 width: 100%; 
+
+                 height: 100%; 
+
+                 display: flex; 
+
+                 justify-content: center; 
+
+                 align-items: center; 
+
+             
+
+             } 
+
+             
+
+             .register-form 
+
+             { 
+
+                  
+
+                 width:520px; 
+
+                 border: 3px solid #f1f1f1; 
+
+                 padding:2rem; 
+
+                 background:#ffffff; 
+
+                 margin-top:60%; 
+
+                 margin-bottom:210px; 
+
+                
+
+             } 
+
+              
+
+             .form-group 
+
+             { 
+
+                 margin-bottom:1rem; 
+
+             } 
+
+             .form-address 
+
+             { 
+
+                 margin-bottom:1rem; 
+
+             } 
+
+              
+
+             .form-button 
+
+             { 
+
+                 height:100%; 
+
+                 width:100%; 
+
+                 display:flex; 
+
+                 align-items:center; 
+
+                 justify-content:center; 
+
+                 margin-bottom:1rem; 
+
+             } 
+
+              
+
+             
+
+             input[type=text],input[type=password] 
+
+             { 
+
+                 background: #fafafa; 
+
+                 border: 1px solid #eeeeee; 
+
+                 padding: 12px; 
+
+                 width: 100%; 
+
+                 display:inline-block; 
+
+                 
+
+             } 
+
+           
+
+             .button:hover  
+
+             { 
+
+                 background-color: #69c8e7; 
+
+                 opacity:0.8; 
+
+             } 
+
+              
+
+             .button 
+
+             { 
+
+                 background-color: #69d2e7; 
+
+                 border: 1px solid #ddd; 
+
+                 color: #ffffff; 
+
+                 width:100px; 
+
+                 height:100%; 
+
+                 padding: 12px; 
+
+                 margin:25px; 
+
+               
+
+             } 
+
+              
+
+             .agree 
+
+             { 
+
+                font-family:Arial,Helvetica,sans-serif; 
+
+                font-size:1rem; 
+
+                margin:auto; 
+
+             } 
+
+              
+
+             .form-header 
+
+             { 
+
+                 text-align:center; 
+
+                 margin-bottom:2rem; 
+
+             } 
+
+              
+
+             
+
+        </style>     
+
+    </head> 
+
+    <body> 
+
+         <div class="RegisterContent"> 
+
+             <form class="register-form" action=""> 
+
+                  
+
+                 <div class="form-header"> 
+
+                     <h1>Register</h1> 
+
+                     <p>Please Fill In The Form</p> 
+
+                 </div> 
+
+               
+
+                 <div class="form-group"> 
+
+                     <label for="name"><b>Name</b></label> 
+
+                     <input type="text" placeholder = "Enter Name" name="Name" required> 
+
+                 </div> 
+
+               
+
+                 <div class="form-group"> 
+
+                     <label for="psw"><b>Password</b></label> 
+
+                     <input type="password" placeholder="Enter Password" name="psw" required> 
+
+                 </div> 
+
+               
+
+                 <div class="form-group">  
+
+                     <label for="confirm"><b>Confirm Password</b></label> 
+
+                     <input type="password" placeholder="Confirm Password" name="confirm psw" required> 
+
+                 </div> 
+
+               
+
+                 <div class="form-group"> 
+
+                     <label for="ContactNo"><b>Contact Number</b></label> 
+
+                     <input type="text" placeholder="Enter contact no" name="Contact number" required> 
+
+                 </div> 
+
+               
+
+                 <div class="form-address"> 
+
+                     <label for="address"><b>Address1</b></label> 
+
+                     <input type="text" placeholder="Enter address" name="Address" required> 
+
+                 </div> 
+
+               
+
+                 <div class="form-address"> 
+
+                     <label for="address"><b>Address2</b></label> 
+
+                     <input type="text" placeholder="Enter address" name="Address" required> 
+
+                 </div> 
+
+              
+
+                 <div class="agree"> 
+
+                     <input type="checkbox" name="agree" id="agree"> 
+
+                     <label for="agree">I accept the <a href="#">Terms of Use & Privacy Policy</a></label> 
+
+                 </div> 
+
+               
+
+                 <div class="form-button"> 
+
+                      <button class="button" type="submit">Sign Up</button> 
+
+                 </div> 
+
+          </form> 
+
+      </div> 
+
+    </body> 
+
+ 
+
+ 
+
+</html> 
+
+ 
